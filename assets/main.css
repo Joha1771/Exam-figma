@@ -5,3 +5,5 @@
 @import './style/fonts.css';
 @import './style/sections/about.css';
 @import './style/sections/services.css';
+@import './style/components/services-cards.css';
+@import './style/sections/tech.css';

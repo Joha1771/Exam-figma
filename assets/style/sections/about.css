@@ -4,7 +4,6 @@
     align-items: center;
     justify-content: center;
     padding-top: 115px;
-    position: relative;
 }
 
 .about__container {
@@ -63,9 +62,7 @@ h2 {
     gap: 30px;
 }
 
-.h2__wrapper {
-    line-height: 1.9;
-}
+
 
 .about__title-desc {
     width: 652px;
@@ -125,9 +122,12 @@ color: #343045;
 padding: 17px 47px 16px 39px;
 }
 .about__product-button button:hover{
-    background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
     box-shadow: 0px 4px 4px 0px #C0B7E803;
     border: 1px solid  #C0B7E8;
     color: #FFFFFF;
     width: 217px;  
+}
+.about__h2-wrapper {
+    line-height: 2.1;
 }
