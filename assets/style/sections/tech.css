@@ -2,6 +2,64 @@
     background-color: #302C42;
     display: flex;
     align-items: center;
-    justify-content: center;
     padding-top: 142px;
+    justify-content: center;
+}
+
+.tech__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.tech__companies{
+    display: flex;
+    align-items: center;
+    gap: 87px;
+    justify-content: center;
+}
+
+.hydra-tech1 {
+    width: 174px;
+    height: 174px;
+    padding-right: 91px;
+    cursor: pointer;
+}
+.hydra-tech2 {
+    padding-right: 71px;
+    width: 252px;
+    height: 252px;
+    cursor: pointer;
+}
+.hydra-tech3 {
+    width: 263px;
+    height: 263px;
+    cursor: pointer;
+}
+.hydra-tech4 {
+    width: 282px;
+    height: 282px;
+    cursor: pointer;
+}
+
+.about__info-text1{
+    font-family: "Montserrat";
+font-weight: 700;
+font-style: Bold;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #FFFFFF;
+}
+.about__info-text2{
+font-family: "Montserrat";
+font-weight: 300;
+font-style: Light;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0%;
+opacity: 0.7;
+}
+.about__h2-wrapper{
+    line-height: 2.4;
 }
