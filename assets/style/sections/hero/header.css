@@ -1,71 +1,84 @@
-.hero{
+.hero {
     background-color: #302C42;
+    overflow: hidden;
+    border: none;
+
 }
+
 .hero__container {
     padding-top: 27px;
+
 }
-.hero__header{
+
+.hero__header {
     display: flex;
     gap: 205px;
     align-items: center;
     justify-content: center;
 }
-.hero__logo img{
+
+.hero__logo img {
     width: 193px;
     height: 103px;
 }
-.hero__nav{
+
+.hero__nav {
     display: flex;
     justify-content: center;
     padding-top: 5px;
 }
-.hero__nav-list{
+
+.hero__nav-list {
     display: flex;
     gap: 41px;
 }
 
-.nav__wrapper{
+.nav__wrapper {
     display: flex;
     gap: 140px;
 }
 
-.hero__nav-link{
+.hero__nav-link {
     color: #ffffff;
     font-family: "Montserrat";
-font-weight: 700;
-font-style: Bold;
-font-size: 12px;
-line-height: 100%;
-letter-spacing: 0%;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
 
 }
-.hero__nav-item:hover{
+
+.hero__nav-item:hover {
     transform: translateY(-2px);
     transition: 0.3s;
     box-shadow: 10px solid #FFFFFF;
 }
-.hero__header-buttons{
+
+.hero__header-buttons {
     display: flex;
     justify-content: center;
     gap: 38px;
 }
-.contact-us__button{
+
+.contact-us__button {
     width: 157px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    
+
 }
 
-.contact-us__button button:hover{
-background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
-border: none;
-transition: 0.4s;
-color: #302C42;
-transition: 0.4s;
+.contact-us__button button:hover {
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    border: none;
+    transition: 0.4s;
+    color: #302C42;
+    transition: 0.4s;
 }
-.contact-us__button button{
+
+.contact-us__button button {
     color: #ffffff;
     padding: 17px 38px 16px 34px;
     font-family: "Montserrat";
@@ -78,29 +91,33 @@ transition: 0.4s;
     border-radius: 40px;
 
 }
-.join-hydra__button button{
+
+.join-hydra__button button {
     color: #302C42;
     font-family: "Montserrat";
-font-weight: 700;
-font-style: Bold;
-font-size: 12px;
-line-height: 100%;
-letter-spacing: 0%;
-padding: 17px 37px 16px 38px;
-opacity: 1;
-border-radius: 40px;
-background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding: 17px 37px 16px 38px;
+    opacity: 1;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
 
 }
-.join-hydra__button button:hover{
-background:#302C42;
-border: 2px solid #FFFFFF;
-transition: 0.4s;
-color: #FFFFFF;
-transition: 0.4s;
+
+.join-hydra__button button:hover {
+    background: #302C42;
+    border: 2px solid #FFFFFF;
+    transition: 0.4s;
+    color: #FFFFFF;
+    transition: 0.3s;
+    width: 159px;
 }
-.join-hydra__button{
-width: 155px;
-height: 48px;
+
+.join-hydra__button {
+    width: 155px;
+    height: 48px;
 
 }

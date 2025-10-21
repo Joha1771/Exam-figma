@@ -3,3 +3,5 @@
 @import './style/sections/hero/main-content.css';
 @import './style/components/hero-buttons.css';
 @import './style/fonts.css';
+@import './style/sections/about.css';
+@import './style/sections/services.css';
