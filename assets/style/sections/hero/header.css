@@ -16,8 +16,8 @@
 }
 .hero__nav{
     display: flex;
-    align-items: center;
     justify-content: center;
+    padding-top: 5px;
 }
 .hero__nav-list{
     display: flex;
@@ -31,6 +31,7 @@
 
 .hero__nav-link{
     color: #ffffff;
+    font-family: "Montserrat";
 font-weight: 700;
 font-style: Bold;
 font-size: 12px;
@@ -45,12 +46,11 @@ letter-spacing: 0%;
 }
 .hero__header-buttons{
     display: flex;
-    align-items: center;
     justify-content: center;
     gap: 38px;
 }
 .contact-us__button{
-    width: 154px;
+    width: 157px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,6 +68,7 @@ transition: 0.4s;
 .contact-us__button button{
     color: #ffffff;
     padding: 17px 38px 16px 34px;
+    font-family: "Montserrat";
     font-weight: 700;
     font-style: Bold;
     font-size: 12px;
@@ -79,6 +80,7 @@ transition: 0.4s;
 }
 .join-hydra__button button{
     color: #302C42;
+    font-family: "Montserrat";
 font-weight: 700;
 font-style: Bold;
 font-size: 12px;
