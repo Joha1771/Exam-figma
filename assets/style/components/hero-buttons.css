@@ -1,0 +1,34 @@
+.location__button, .call__button, .email__button{
+    width: 70px;
+    height: 70px;
+}
+
+.hero__buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 82px;
+    margin-top: 153px;
+    margin-right: 50px;
+}
+.button{
+    display: flex;
+    gap: 34px;
+    width: 349px;
+    height: 109px;  
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 0px 4px 4px 0px #C0B7E803;
+    border-radius: 90px;
+}
+.button p{
+    color: #FFFFFF;
+font-weight: 700;
+font-style: Bold;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}

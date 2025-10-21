@@ -1,0 +1,83 @@
+        
+.hero__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+}
+
+
+h1 {
+    display: flex;
+    flex-direction: column;
+font-weight: 700;
+font-style: Bold;
+font-size: 46px;
+line-height: 100%;
+gap: 10px;
+
+}
+
+.white-text {
+color: #ffffff;
+text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.purple-text {
+ background:linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%) ;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+.hero__title-description p{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.6;
+letter-spacing: 0%;
+color: #FFFFFF;
+}
+
+.hero__title-wrapper{
+    display: flex;
+    gap: 36px;
+    flex-direction: column;
+}
+.hero__arrow-button img{
+    width: 100px;
+    height: 100px;
+}
+.hero__title-buttons{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-right: 130px;
+}
+.hero__content-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+.hero__image {
+    padding-top: 50px;
+}
+.hero__image img{
+    width: 524px;
+    height: 460px;
+}
+.hero__byw-button button{
+font-weight: 700;
+font-style: Bold;
+font-size: 12px;
+padding: 17px 43px 16px 38px;
+background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+border-radius: 40px;
+}
+.hero__byw-button{
+    
+    width: 214px;
+    height: 48px;
+}
